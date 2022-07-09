@@ -1,0 +1,26 @@
+[
+  {
+    "title": "¿Cuál es tu nombre?",
+    "elements": [
+      { "text": "Nombre" },
+      { "text": "Segundo nombre" },
+      { "text": "Apellido paterno" },
+      { "text": "Apellido materno" }
+    ]
+  },
+  {
+    "title": "¿Cuál es tu fecha de nacimiento?",
+    "elements": [{ "text": "Día" }, { "text": "Mes" }, { "text": "Año" }]
+  },
+  {
+    "title": "Datos de contacto.",
+    "elements": [
+      { "text": "Correo electrónico" },
+      { "text": "Teléfono celular" }
+    ]
+  },
+  {
+    "title": "Si tus datos son correctos por favor continuemos",
+    "elements": []
+  }
+]
