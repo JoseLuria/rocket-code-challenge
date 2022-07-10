@@ -15,6 +15,15 @@ export const FormInput = styled.textarea`
   padding: 0.75rem;
   border-radius: 0.25rem;
   resize: none;
+
+  &::-webkit-scrollbar {
+    width: 0.25rem;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--low-black);
+    border-radius: 0.15rem;
+  }
 `;
 
 export const FormButton = styled.button`
