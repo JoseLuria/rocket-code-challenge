@@ -2,7 +2,7 @@
 
 Aquí se encuentra el reto de [The Rocket Code](https://therocketcode.com/) resuelto, dicho reto consiste en crear una aplicación en React que funciona como un formulario y recaba información del usuario que muestra al final.
 
-[Aquí puedes ver el sitio en vivo]()
+[Aquí puedes ver el sitio en vivo](https://bucolic-cobbler-50fdda.netlify.app/)
 
 ## 🖼️ Capturas de pantalla
 
@@ -36,7 +36,7 @@ npm run dev
 
 ## 🚨 Validación de datos
 
-La aplicación utiliza una validación por medio de regex para obtener la infamación de correo electrónico y teléfono del texto.
+La aplicación utiliza una validación por medio de regex para obtener la información de correo electrónico y teléfono del texto.
 
 ### Los datos deben de cumplir con los siguientes puntos:
 
@@ -50,6 +50,10 @@ La aplicación utiliza una validación por medio de regex para obtener la infama
 Correo electrónico: test@test.com
 Teléfono celular: 55 5555 5555
 ```
+
+### En caso de que la validación no se cumpla, ambos campos se llenaran con el texto de Formato inválido
+
+![Formato Invalido](./public/invalid-format.png)
 
 ## ⚙️️ Esta aplicación fue construida usando las siguientes tecnologías
 
