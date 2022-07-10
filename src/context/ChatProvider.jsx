@@ -66,6 +66,7 @@ export const ChatProvider = ({ children }) => {
     const stepToUpdate = { stepNumber: state.actualStep, response };
     const upatedSteps = [...filteredSteps, stepToUpdate];
     dispatch({ type: "Chat - Show user data", payload: upatedSteps });
+    sessionStorage.setItem("user", JSON.stringify(state.userData));
   };
 
   return (
