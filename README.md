@@ -38,6 +38,8 @@ npm run dev
 
 La aplicación utiliza una validación por medio de regex para obtener la información de correo electrónico y teléfono del texto.
 
+La información de usuario se guarda en session storage con la clave user
+
 ### Los datos deben de cumplir con los siguientes puntos:
 
 - El número de teléfono solo incluye números y su longitud es igual a 10 caracteres.
